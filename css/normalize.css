@@ -155,10 +155,6 @@ section .column img {
 	        transform: translateY(-50px);
 }
 
-* {
-  font-family: Roboto;
-}
-
 .footer-distributed{
 	background: #444;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -166,6 +162,8 @@ section .column img {
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 	padding: 50px 60px 40px;
 	overflow: hidden;
 }
@@ -220,7 +218,7 @@ section .column img {
 	height: 35px;
 	cursor: pointer;
 	background-color:  #33383b;
-	border-radius: 2px;
+	border-radius: 8px;
 
 	font-size: 20px;
 	color: #ffffff;
@@ -253,7 +251,7 @@ section .column img {
 .footer-distributed form input,
 .footer-distributed form textarea{
 	display: block;
-	border-radius: 3px;
+	border-radius: 13px;
 	box-sizing: border-box;
 	background-color:  #1f2022;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
@@ -294,7 +292,7 @@ section .column img {
 }
 
 .footer-distributed form button{
-	border-radius: 3px;
+	border-radius: 8px;
 	background-color:  #33383b;
 	color: #ffffff;
 	border: 0;
